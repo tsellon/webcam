@@ -1,0 +1,14 @@
+This is a quick little script that grabs an image from the webcam
+once every second, and then applies some transformations to it.
+The webcam control is VideoCapture, which only works on Windows
+systems. I use PIL for the image manipulation. For more info on
+those packages:
+VideoCapture--http://videocapture.sourceforge.net/
+PIL--http://www.pythonware.com/products/pil/
+
+This code example from technobabbler showed me the way:
+http://technobabbler.com/?p=22
+
+If you're looking to do something similar on linux, this might
+be a good resource:
+http://www.jperla.com/blog/post/capturing-frames-from-a-webcam-on-linux
